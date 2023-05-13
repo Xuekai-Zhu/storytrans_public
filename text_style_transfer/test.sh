@@ -1,1 +1,0 @@
-CUDA_VISIBLE_DEVICES=1 bert-score -r example/refs.txt -c example/hyps.txt --lang en
