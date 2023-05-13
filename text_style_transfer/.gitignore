@@ -162,7 +162,7 @@ model/
 log/
 model_add_sen_type/
 files_on_165/
-# data_ours/
+data_ours/
 pretrained_model/
 ref_model/
 *.out
