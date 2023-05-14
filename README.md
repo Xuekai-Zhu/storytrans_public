@@ -15,6 +15,17 @@ To install the required dependencies, you can use the following command:
 ```bash
 conda create --name <env> --file <this file>
 ```
+## Data
+All our constructed data are in text_style_transfer/data
+```markdown
+├── Data
+   └── en   # the English story including everyday stories and Shakespeare’s plays.
+   └── zh   # the Chinese story including fairy tales, LuXun (LX), and JinYong (JY).
+```
+Data example:
+```json
+"text": ["Cask . Marry , before he fell downe , when he perceiu ' d the common Heard was glad he refus ' d the Crowne , he pluckt me ope his Doublet , and offer ' d them his Throat to cut : and I had beene a man of any Occupation , if I would not haue taken him at a word , I would I might goe to Hell among the Rogues , and so hee fell ."], "style": "<Sp>", "mask_word": ["taken", "Throat", "refus", "Rogues", "Heard", "Doublet", "Occupation", "fell"], "text_mask": ["Cask . Marry , before he <mask> downe , when he perceiu ' d the common <mask> was glad he <mask> ' d the Crowne , he pluckt me ope his <mask> , and offer ' d them his <mask> to cut : and I had beene a man of any <mask> , if I would not haue <mask> him at a word , I would I might goe to Hell among the <mask> , and so hee <mask> ."]
+```
 
 ## Quick Start
 
