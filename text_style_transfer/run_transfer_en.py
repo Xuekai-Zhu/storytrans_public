@@ -34,8 +34,8 @@ class Config(object):
         # data
         # if args.lan == "en":
         # en
-        self.train_set_mask = 'data_ours/Longtext_en/sp+story/style_transfer_data/train.mask'
-        self.test_set_mask = 'data_ours/Longtext_en/sp+story/style_transfer_data/test.mask'
+        self.train_set_mask = 'text_style_transfer/data/en/train.mask'
+        self.test_set_mask = 'text_style_transfer/data/en/test.mask'
 
         # # zh
         #     self.train_set_mask = './data_ours/auxiliary_data/train.sen.add_index.mask'
