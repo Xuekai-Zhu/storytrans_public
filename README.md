@@ -10,11 +10,8 @@ StoryTrans leverages discourse representations to capture source content informa
 
 The prerequisites for running the code are listed in the `requirement.txt`. Make sure you have the necessary environment and dependencies set up before proceeding with the installation and execution of the code.
 
-To install the required dependencies, you can use the following command:
+To install the required dependencies, you can use pip or conda to install the package in `requirement.txt`:
 
-```bash
-conda create --name <env> --file <this file>
-```
 ## Data
 All our constructed data are in text_style_transfer/data
 ```markdown
