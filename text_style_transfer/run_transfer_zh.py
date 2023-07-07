@@ -32,15 +32,15 @@ class Config(object):
 
         # data
         # self.sen_embs = "./data_ours/auxiliary_data/train.sen.emb.pickle"
-        self.sen_embs = "./data_ours/auxiliary_data/train.sen.bt.emb.pickle"
-        self.sen_bt = "./data_ours/auxiliary_data/train.sen.bt"
-        self.train_set = './data_ours/auxiliary_data/train.sen.add_index'
-        self.train_set_mask = './data_ours/auxiliary_data/train.sen.add_index.mask'
-        self.train_set_mask_jy = './data_ours/auxiliary_data/train.sen.add_index.mask.jy'
-        self.train_set_mask_lx = './data_ours/auxiliary_data/train.sen.add_index.mask.lx'
-        self.valid_set = './data_ours/auxiliary_data/valid.sen.add_index'
-        self.test_set = './data_ours/auxiliary_data/test.sen.add_index'
-        self.test_set_mask = './data_ours/auxiliary_data/test.sen.add_index.mask'
+        # self.sen_embs = "./data_ours/auxiliary_data/train.sen.bt.emb.pickle"
+        # self.sen_bt = "./data_ours/auxiliary_data/train.sen.bt"
+        # self.train_set = './data_ours/auxiliary_data/train.sen.add_index'
+        self.train_set_mask = './data/zh/train.sen.add_index.mask'
+        # self.train_set_mask_jy = './data_ours/auxiliary_data/train.sen.add_index.mask.jy'
+        # self.train_set_mask_lx = './data_ours/auxiliary_data/train.sen.add_index.mask.lx'
+        self.valid_set = './data/zh/valid.sen.add_index'
+        # self.test_set = './data/zh/test.sen.add_index.mask'
+        self.test_set_mask = '/data/zh/test.sen.add_index.mask'
         self.need_fill = args.fill
 
         # # classifier setting
