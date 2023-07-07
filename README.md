@@ -10,9 +10,9 @@ StoryTrans leverages discourse representations to capture source content informa
 
 The prerequisites for running the code are listed in the `requirement.txt`. Make sure you have the necessary environment and dependencies set up before proceeding with the installation and execution of the code.
 
-To install the required dependencies, you can use pip or conda to install the package in `requirement.txt`:
+To install the required dependencies, you can use pip or conda to install the package in `requirement.txt`.
 
-## Data
+## Data and pre-trained classifier
 All our constructed data are in text_style_transfer/data
 ```markdown
 ├── Data
@@ -23,6 +23,7 @@ Data example:
 ```json
 "text": ["Cask . Marry , before he fell downe , when he perceiu ' d the common Heard was glad he refus ' d the Crowne , he pluckt me ope his Doublet , and offer ' d them his Throat to cut : and I had beene a man of any Occupation , if I would not haue taken him at a word , I would I might goe to Hell among the Rogues , and so hee fell ."], "style": "<Sp>", "mask_word": ["taken", "Throat", "refus", "Rogues", "Heard", "Doublet", "Occupation", "fell"], "text_mask": ["Cask . Marry , before he <mask> downe , when he perceiu ' d the common <mask> was glad he <mask> ' d the Crowne , he pluckt me ope his <mask> , and offer ' d them his <mask> to cut : and I had beene a man of any <mask> , if I would not haue <mask> him at a word , I would I might goe to Hell among the <mask> , and so hee <mask> ."]
 ```
+The classifier is very easy to train, you can pre-train the style classifier by yourself or download at [pre-trained classifier](https://drive.google.com/drive/folders/1vEYveDCMqyCq3okUqaHMpCjVetmerWRE?usp=sharing).
 
 ## Quick Start
 
