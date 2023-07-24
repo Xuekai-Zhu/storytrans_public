@@ -52,10 +52,18 @@ sh text_style_transfer/MaskFill_gen_zh.sh
 Please kindly cite our paper if this paper and the code are helpful.
 
 ```
-@article{zhu2022storytrans,
-  title={StoryTrans: Non-Parallel Story Author-Style Transfer with Discourse Representations and Content Enhancing},
-  author={Zhu, Xuekai and Guan, Jian and Huang, Minlie and Liu, Juan},
-  journal={arXiv preprint arXiv:2208.13423},
-  year={2022}
+@inproceedings{zhu-etal-2023-storytrans,
+    title = "{S}tory{T}rans: Non-Parallel Story Author-Style Transfer with Discourse Representations and Content Enhancing",
+    author = "Zhu, Xuekai  and
+      Guan, Jian  and
+      Huang, Minlie  and
+      Liu, Juan",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.827",
+    pages = "14803--14819",
 }
 ```
