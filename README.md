@@ -8,9 +8,9 @@ StoryTrans leverages discourse representations to capture source content informa
 
 ## Prerequisites
 
-The prerequisites for running the code are listed in the `requirement.txt`. Make sure you have the necessary environment and dependencies set up before proceeding with the installation and execution of the code.
+The prerequisites for running the code are provided as an exported conda environment (`environment.yml`) rather than as a `requirement.txt` package list. Make sure you have the necessary environment and dependencies set up before proceeding with the installation and execution of the code.
 
-To install the required dependencies, you can use pip or conda to install the package in `requirement.txt`.
+To install the required dependencies, create the conda environment from the exported environment file: `conda env create -f environment.yml`; if dependencies change, export the working environment with `conda env export > environment.yml`.
 
 ## Data and pre-trained classifier
 All our constructed data are in text_style_transfer/data
